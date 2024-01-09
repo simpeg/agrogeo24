@@ -73,8 +73,7 @@ that aren't preinstalled in the default Google Colab environment.
    reads `Successfully installed ...` and lists all the new packages that had
    been installed.
 
-
-> [IMPORTANT!]
+> [!IMPORTANT]
 > Every time you open a notebook in Colab or create a new one, you'll have to
 > reinstall these packages (Google Colab don't save installed states across
 > notebooks).
