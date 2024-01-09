@@ -65,7 +65,7 @@ follow their installation instructions:
 
 #### Step 2: Create the `simpeg-agrogeo24` conda environment
 
-> **Important**
+> [!IMPORTANT]
 > In the following steps we'll make use of the `mamba` package manager. In case
 > you installed Anaconda, use `conda` instead. You can simply replace `mamba`
 > for `conda` on every command we ask to use it and it'll work fine.
@@ -86,7 +86,7 @@ follow their installation instructions:
 
 #### Step 3: Activate the `simpeg-agrogeo24` environment and start JupyterLab
 
-> **Important**
+> [!TIP]
 > You'll need a browser that is able to run JupyterLab (basically anyone except
 > Internet Explorer or Edge). If you are in Windows, make sure you change your
 > default browser to a different one.
