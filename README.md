@@ -24,9 +24,8 @@ access to a Python environment. This could be done through **online services**
 like [Google Colab][colab], or through a **local Python installation** like
 [Anaconda][anaconda] or [Miniforge][miniforge].
 
-By default we'll use Google Colab. But we'll provide instructions on how to
-install Python, SimPEG and Jupyter locally in case something goes wrong with
-the former.
+By default we'll use Google Colab. But we'll consider installing Python locally
+in case something goes wrong with the former.
 
 Here will provide instructions to:
 
