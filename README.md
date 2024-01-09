@@ -35,12 +35,59 @@ Here will provide instructions to:
 
 ## Configure Google Colab
 
-<!-- add instructions for getting everything ready in Google Colab -->
+To be able to run the Jupyter notebooks for this tutorial in Google Colab,
+we'll need to follow these steps:
+
+1. Login to our Google Colab account.
+1. Create a new notebook.
+1. Install some Python libraries that we'll need to use, such as
+   [SimPEG][simpeg].
+
+### Step 1: Login to our Google Colab account
+
+If you don't have a Google account, create one and log in. If you do, you just
+need to log in.
+
+### Step 2: Create a new notebook
+
+1. Access to Google Colab by going to: https://colab.research.google.com
+1. Find the top menu and choose `File` > `New notebook`. A new tab should open
+   with a blank notebook in it.
+
+### Step 3: Install some Python libraries
+
+To be able to follow this workshop we need to install some Python libraries
+that aren't preinstalled in the default Google Colab environment.
+
+1. Click on the first cell of the notebook (if it's not empty, then create
+   a new _Code_ cell and move it to the first position with the arrows icons
+   that appear on its top-right).
+1. Type the following line in the selected cell:
+   ```
+   !pip install simpeg==0.20.0 discretize==0.10.0 pymatsolver==0.2.0
+   ```
+   Note the `!` sign at the beginning of the line, **don't remove it**.
+1. Run that cell by clicking the _Play_ button on its left or by pressing
+   `Shift+Enter` in your keyboard. `pip` should install all the packaged listed
+   in that line. If installation goes smoothly, you should see a line that
+   reads `Successfully installed ...` and lists all the new packages that had
+   been installed.
+
+
+> [IMPORTANT!]
+> Every time you open a notebook in Colab or create a new one, you'll have to
+> reinstall these packages (Google Colab don't save installed states across
+> notebooks).
+>
+> If it's a new notebook, just follow the previous instructions from the top.
+>
+> If it's an existing notebook, make sure that it has the `!pip install ...`
+> line at the top (add it otherwise), and run it.
 
 ## Install Python locally
 
-To be able to run the Jupyter notebooks for this tutorial we'll have to follow
-these steps:
+To be able to run the Jupyter notebooks for this tutorial in our own machines,
+we'll have to follow these steps:
 
 1. Install a Python distribution (like [Anaconda][anaconda] or
    [miniforge][miniforge]).
@@ -114,6 +161,7 @@ License](http://creativecommons.org/licenses/by/4.0).
 
 [santisoler]: https://www.santisoler.com
 [dccowan]: https://www.github.com/dccowan
+[simpeg]: https://www.simpeg.xyz
 [jupyter]: https://jupyter.org/
 [colab]: https://colab.research.google.com
 [anaconda]: https://www.anaconda.com/download
