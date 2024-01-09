@@ -28,11 +28,17 @@ By default we'll use Google Colab. But we'll provide instructions on how to
 install Python, SimPEG and Jupyter locally in case something goes wrong with
 the former.
 
+Here will provide instructions to:
+
+- [Configure Google Colab](#configure-google-colab)
+- or [Install Python locally](#install-python-locally)
+
+
 ## Configure Google Colab
 
 <!-- add instructions for getting everything ready in Google Colab -->
 
-## Local Python installation
+## Install Python locally
 
 To be able to run the Jupyter notebooks for this tutorial we'll have to follow
 these steps:
