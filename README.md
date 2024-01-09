@@ -28,12 +28,11 @@ By default we'll use Google Colab. But we'll provide instructions on how to
 install Python, SimPEG and Jupyter locally in case something goes wrong with
 the former.
 
-
-### Google Colab
+## Configure Google Colab
 
 <!-- add instructions for getting everything ready in Google Colab -->
 
-### Local Python installation
+## Local Python installation
 
 To be able to run the Jupyter notebooks for this tutorial we'll have to follow
 these steps:
@@ -45,7 +44,7 @@ these steps:
 1. Activate this conda environment and run [JupyterLab][jupyterlab] to start
    coding.
 
-#### Step 1: Install a Python distribution
+### Step 1: Install a Python distribution
 
 We recommend installing a Python distribution like [miniforge][miniforge] or
 [Anaconda][anaconda].
@@ -63,7 +62,7 @@ follow their installation instructions:
 - Install miniforge: https://github.com/conda-forge/miniforge#install
 - Install Anaconda: https://docs.anaconda.com/anaconda/install
 
-#### Step 2: Create the `simpeg-agrogeo24` conda environment
+### Step 2: Create the `simpeg-agrogeo24` conda environment
 
 > [!IMPORTANT]
 > In the following steps we'll make use of the `mamba` package manager. In case
@@ -84,7 +83,7 @@ follow their installation instructions:
    the tutorial). If you installed Anaconda, then replace `mamba` for `conda`
    in the previous line.
 
-#### Step 3: Activate the `simpeg-agrogeo24` environment and start JupyterLab
+### Step 3: Activate the `simpeg-agrogeo24` environment and start JupyterLab
 
 > [!TIP]
 > You'll need a browser that is able to run JupyterLab (basically anyone except
