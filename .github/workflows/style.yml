@@ -1,0 +1,65 @@
+# Linting and style checks with GitHub Actions
+#
+# NOTE: Pin actions to a specific commit to avoid having the authentication
+# token stolen if the Action is compromised. See the comments and links here:
+# https://github.com/pypa/gh-action-pypi-publish/issues/27
+#
+# Use nbQA to run linters and code formatters on notebooks
+#
+name: code-style
+
+# Only build PRs and the main branch. Pushes to branches will only be built
+# when a PR is opened.
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+###############################################################################
+jobs:
+  ruff:
+    name: ruff
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.11"
+
+      - name: Install requirements
+        run: pip install -r .github/requirements-style.txt
+
+      - name: List installed packages
+        run: pip freeze
+
+      - name: Check code format
+        run: make ruff
+
+  black:
+    name: black
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.11"
+
+      - name: Install requirements
+        run: pip install -r .github/requirements-style.txt
+
+      - name: List installed packages
+        run: pip freeze
+
+      - name: Check code format
+        run: make black
