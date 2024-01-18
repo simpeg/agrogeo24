@@ -10,3 +10,5 @@ __pycache__/
 # Tutorial data file
 fwd_dcr_2d_outputs/
 
+# Make images file
+make_images.ipynb
