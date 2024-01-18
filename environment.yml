@@ -13,3 +13,7 @@ dependencies:
   - ipython
   - jupyter
   - jupyterlab
+  # Linters
+  - nbqa==1.7.1
+  - ruff==0.1.13
+  - black==23.12.1
