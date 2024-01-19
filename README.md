@@ -8,10 +8,13 @@ and [Santiago Soler][santisoler]<sup>1</sup>
 > Geophysical Inversion Facility. Earth Ocean and Atmospheric
 > Sciences. University of British Columbia.
 
+
 | **Information** | |
 |---|---|
 | Where | ETH Zürich, Switzerland |
 | When | Feb 1 and Feb 2, 2024 |
+| Organizer | [Agrogeophysics Organizing Committee][agrogeo24] |
+| Website of the event | [agrogeophy.github.io/agrogeo24][agrogeo24] |
 
 
 ## About
