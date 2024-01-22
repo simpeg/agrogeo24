@@ -8,11 +8,34 @@ and [Santiago Soler][santisoler]<sup>1</sup>
 > Geophysical Inversion Facility. Earth Ocean and Atmospheric
 > Sciences. University of British Columbia.
 
+
+| **Information** | |
+|---|---|
+| Where | ETH Zürich, Switzerland |
+| When | Feb 1 and Feb 2, 2024 |
+| Organizer | [Agrogeophysics Organizing Committee][agrogeo24] |
+| Website of the event | [agrogeophy.github.io/agrogeo24][agrogeo24] |
+
+
 ## About
 
-<!-- Describe what the tutorial will be about, what kind of problem we'll
-solve, which tools are we going to use, provide short list of steps that we'll
-go through.-->
+We were invited by [Agrogeo24][agrogeo24] to give a workshop about SimPEG, to
+show the agrogeophysical community how we can use [SimPEG][simpeg] to run
+forward simulations of DC resistivity data (ERT), and how we can invert that
+type of data.
+
+> Come and discover the powerful open-source [SimPEG][simpeg] framework whose
+> development is led by UBC.
+> You will learn how to set-up an inversion in SimPEG using an example from ERT,
+> then you will get the chance to set up an inversion scheme yourselves and
+> finally get some information on how to proceed for your own data set.
+
+During this workshop we'll go through two Jupyter notebooks that showcase
+examples on how we can run forward and inverse problems for ERT data:
+
+- [01-forward-dc-resisitivity-2d.ipynb](notebooks/01-forward-dc-resisitivity-2d.ipynb)
+- [02-inversion-dc-resistivity-2d.ipynb](notebooks/02-inversion-dc-resistivity-2d.ipynb)
+
 
 ## Setup
 
@@ -169,3 +192,4 @@ License](http://creativecommons.org/licenses/by/4.0).
 [jupyterlab]: https://jupyterlab.readthedocs.io
 [environment_yml]: https://raw.githubusercontent.com/simpeg/agrogeo24/main/environment.yml
 [shell-novice]: http://swcarpentry.github.io/shell-novice
+[agrogeo24]: https://agrogeophy.github.io/agrogeo24
