@@ -4,6 +4,12 @@
 [Devin C. Cowan][dccowan]<sup>1</sup>
 and [Santiago Soler][santisoler]<sup>1</sup>
 
+**Authors of the material**
+[Devin C. Cowan][dccowan]<sup>1</sup>,
+[Santiago Soler][santisoler]<sup>1</sup>
+and
+[Lindsey Heagy][lindsey]<sup>1</sup>
+
 > <sup>1</sup>
 > Geophysical Inversion Facility. Earth Ocean and Atmospheric
 > Sciences. University of British Columbia.
@@ -183,6 +189,7 @@ License](http://creativecommons.org/licenses/by/4.0).
 
 [santisoler]: https://www.santisoler.com
 [dccowan]: https://www.github.com/dccowan
+[lindsey]: https://lindseyjh.ca/
 [simpeg]: https://www.simpeg.xyz
 [jupyter]: https://jupyter.org/
 [colab]: https://colab.research.google.com
