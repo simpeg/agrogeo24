@@ -13,7 +13,7 @@ and [Santiago Soler][santisoler]<sup>1</sup>
 |---|---|
 | Where | ETH Zürich, Switzerland |
 | When | Feb 1 and Feb 2, 2024 |
-| Organizer | [Agrogeophysics Organizing Committee][agrogeo24] |
+| Organizer | [Agrogeophysics Organizing Committee][committee] |
 | Website of the event | [agrogeophy.github.io/agrogeo24][agrogeo24] |
 
 
@@ -193,3 +193,4 @@ License](http://creativecommons.org/licenses/by/4.0).
 [environment_yml]: https://raw.githubusercontent.com/simpeg/agrogeo24/main/environment.yml
 [shell-novice]: http://swcarpentry.github.io/shell-novice
 [agrogeo24]: https://agrogeophy.github.io/agrogeo24
+[committee]: https://agrogeophy.github.io/agrogeo24/committees.html
