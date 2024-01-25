@@ -46,5 +46,5 @@ jobs:
           mamba list
 
       - name: Run notebooks
-      - run: |
+        run: |
           jupyter-nbconvert --execute --to notebook --inplace --ExecutePreprocessor.kernel_name=python3 notebooks/*.ipynb
