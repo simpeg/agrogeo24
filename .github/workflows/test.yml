@@ -42,9 +42,9 @@ jobs:
 
       - name: List installed packages
         run: |
-        mamba info
-        mamba list
+          mamba info
+          mamba list
 
       - name: Run notebooks
       - run: |
-        jupyter-nbconvert --execute --to notebook --inplace --ExecutePreprocessor.kernel_name=python3 notebooks/*.ipynb
+          jupyter-nbconvert --execute --to notebook --inplace --ExecutePreprocessor.kernel_name=python3 notebooks/*.ipynb
