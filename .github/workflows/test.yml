@@ -40,6 +40,10 @@ jobs:
           auto-actiate-base: false
           miniforge-version: latest
 
+      - name: Install nbconvert
+        run: |
+          mamba install nbconvert
+
       - name: List installed packages
         run: |
           mamba info
