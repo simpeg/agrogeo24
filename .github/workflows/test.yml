@@ -1,0 +1,50 @@
+# Run notebooks to test they run without errors
+name: test
+
+# Only run on PRs and the main branch. Pushes to branches will only tested
+# when a PR is opened.
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+
+# Use bash by default in all jobs
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  #############################################################################
+  # Run tests and upload to codecov
+  test:
+    name: Test notebooks
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cancel Previous Runs
+        uses: styfle/cancel-workflow-action@85880fa0301c86cca9da44039ee3bb12d3bedbfa
+        with:
+          access_token: ${{ github.token }}
+
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Setup Miniconda
+        uses: conda-incubator/setup-miniconda@v4
+        with:
+          activate-environment: simpeg-agrogeo24
+          environment-file: environment.yml
+          auto-actiate-base: false
+          miniforge-version: latest
+
+      - name: List installed packages
+        run: |
+        mamba info
+        mamba list
+
+      - name: Run notebooks
+      - run: |
+        jupyter-nbconvert --execute --to notebook --inplace --ExecutePreprocessor.kernel_name=python3 notebooks/*.ipynb
