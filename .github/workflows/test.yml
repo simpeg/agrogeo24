@@ -42,6 +42,9 @@ jobs:
           auto-actiate-base: false
           miniforge-version: latest
 
+      - name: Init Mamba
+        run: mamba init
+
       - name: Install nbconvert
         run: |
           mamba activate $ENVIRONMENT
