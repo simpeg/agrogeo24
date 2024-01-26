@@ -41,22 +41,25 @@ jobs:
           environment-file: environment.yml
           auto-actiate-base: false
           miniforge-version: latest
-
-      - name: Init Mamba
-        run: mamba init
-
-      - name: Install nbconvert
         run: |
-          mamba activate $ENVIRONMENT
           mamba install nbconvert
-
-      - name: List installed packages
-        run: |
-          mamba activate $ENVIRONMENT
-          mamba info
-          mamba list
-
-      - name: Run notebooks
-        run: |
-          mamba activate $ENVIRONMENT
           jupyter-nbconvert --execute --to notebook --inplace --ExecutePreprocessor.kernel_name=python3 notebooks/*.ipynb
+
+      # - name: Init Mamba
+      #   run: mamba init
+      #
+      # - name: Install nbconvert
+      #   run: |
+      #     mamba activate $ENVIRONMENT
+      #     mamba install nbconvert
+      #
+      # - name: List installed packages
+      #   run: |
+      #     mamba activate $ENVIRONMENT
+      #     mamba info
+      #     mamba list
+      #
+      # - name: Run notebooks
+      #   run: |
+      #     mamba activate $ENVIRONMENT
+      #     jupyter-nbconvert --execute --to notebook --inplace --ExecutePreprocessor.kernel_name=python3 notebooks/*.ipynb
