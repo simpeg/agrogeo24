@@ -37,7 +37,6 @@ jobs:
         with:
           activate-environment: simpeg-agrogeo24
           environment-file: environment.yml
-          auto-actiate-base: false
           miniforge-version: latest
 
       - name: List installed packages
