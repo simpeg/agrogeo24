@@ -8,7 +8,7 @@
 #
 name: code-style
 
-# Only build PRs and the main branch. Pushes to branches will only be built
+# Only runs in PRs and the main branch. Pushes to branches will only be checked
 # when a PR is opened.
 on:
   pull_request:
