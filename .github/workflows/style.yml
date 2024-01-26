@@ -27,11 +27,6 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Show git status
-        run: |
-          git status
-          git log | head
-
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
