@@ -4,15 +4,26 @@
 [Devin C. Cowan][dccowan]<sup>1</sup>
 and [Santiago Soler][santisoler]<sup>1</sup>
 
-**Authors of the material**
+**Authors of the material:**
 [Devin C. Cowan][dccowan]<sup>1</sup>,
 [Santiago Soler][santisoler]<sup>1</sup>
 and
 [Lindsey Heagy][lindsey]<sup>1</sup>
 
+**Contributors:**
+[Mariana G.][mgomezn]<sup>2</sup>
+and [Rowan Cockett][rowan]<sup>3</sup>
+
 > <sup>1</sup>
 > Geophysical Inversion Facility. Earth Ocean and Atmospheric
 > Sciences. University of British Columbia.
+> <br>
+> <sup>2</sup>
+> Centro de Investigación Científica y de Educación Superior de Ensenada
+> (CICESE), Baja California
+> <br>
+> <sup>3</sup>
+> [Curvenote](https://www.curvenote.com)
 
 
 | **Information** | |
@@ -190,6 +201,8 @@ License](http://creativecommons.org/licenses/by/4.0).
 [santisoler]: https://www.santisoler.com
 [dccowan]: https://www.github.com/dccowan
 [lindsey]: https://lindseyjh.ca/
+[mgomezn]: https://github.com/MGomezN
+[rowan]: https://github.com/rowanc1
 [simpeg]: https://www.simpeg.xyz
 [jupyter]: https://jupyter.org/
 [colab]: https://colab.research.google.com
