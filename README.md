@@ -43,8 +43,9 @@ and then to run a deterministic inversion to recover the original model.
 You'll learn how to set up a DC survey, define a mesh, build a synthetic model,
 create a simulation that implements all the physics, and run a forward
 model to generate synthetic data. Lastly you'll learn how to set up an
-inversion to recover the resistivity of the subsurface. By the end of the
-tutorial you'll be able to invert your own data.
+inversion to recover the resistivity of the subsurface.
+By the end of the tutorial you'll be able to use SimPEG to invert your own
+data.
 
 
 ## About
