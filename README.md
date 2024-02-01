@@ -34,18 +34,25 @@ and [Rowan Cockett][rowan]<sup>3</sup>
 | Website of the event | [agrogeophy.github.io/agrogeo24][agrogeo24] |
 
 
+## Abstract
+
+In this workshop we'll showcase how we can use the tools available in
+[SimPEG][simpeg], a Python library for Simulations and Parameter Estimations in
+Geophysics, to simulate ERT (a.k.a. DC resistivity) data from a synthetic model
+and then to run a deterministic inversion to recover the original model.
+You'll learn how to set up a DC survey, define a mesh, build a synthetic model,
+create a simulation that implements all the physics, and run a forward
+model to generate synthetic data. Lastly you'll learn how to set up an
+inversion to recover the resistivity of the subsurface. By the end of the
+tutorial you'll be able to invert your own data.
+
+
 ## About
 
 We were invited by [Agrogeo24][agrogeo24] to give a workshop about SimPEG, to
 show the agrogeophysical community how we can use [SimPEG][simpeg] to run
 forward simulations of DC resistivity data (ERT), and how we can invert that
 type of data.
-
-> Come and discover the powerful open-source [SimPEG][simpeg] framework whose
-> development is led by UBC.
-> You will learn how to set-up an inversion in SimPEG using an example from ERT,
-> then you will get the chance to set up an inversion scheme yourselves and
-> finally get some information on how to proceed for your own data set.
 
 During this workshop we'll go through two Jupyter notebooks that showcase
 examples on how we can run forward and inverse problems for ERT data:
