@@ -53,6 +53,17 @@ examples on how we can run forward and inverse problems for ERT data:
 - [01-forward-dc-resisitivity-2d.ipynb](notebooks/01-forward-dc-resisitivity-2d.ipynb)
 - [02-inversion-dc-resistivity-2d.ipynb](notebooks/02-inversion-dc-resistivity-2d.ipynb)
 
+## Abstract
+
+In this workshop we'll showcase how we can use the tools available in
+[SimPEG][simpeg], a Python library for Simulations and Parameter Estimations in
+Geophysics, to simulate DC resistivity data from a synthetic model and then to
+run a deterministic inversion to recover the original model.
+You'll learn how to set up a DC survey, define a mesh, build a synthetic model,
+create a simulation that implements all the physics, and run a forward
+model to generate synthetic data. Lastly you'll learn how to set up an
+inversion to recover the resistivity of the subsurface. By the end of the
+tutorial you'll be able to invert your own data.
 
 ## Setup
 
