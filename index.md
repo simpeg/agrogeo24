@@ -20,4 +20,5 @@ data.
 ## Prerequisites
 
 - A bit of familiarity with Python
-- Google colab account
+- A Google Colab account or a local Python installation (like Anaconda or
+  Miniforge)
