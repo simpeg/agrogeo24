@@ -152,7 +152,7 @@ Both of them will install Python and a package manager that allows us to
 install new Python libraries (like SimPEG for example), and also create
 _environments_.
 
-Anaconda uses the `conda` package manager, while Miniconda uses the new
+Anaconda uses the `conda` package manager, while Miniforge uses the new
 `mamba`, which works faster than `conda`.
 
 If you have either of both installed, you can skip this step. Otherwise, please
