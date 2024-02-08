@@ -6,7 +6,7 @@ title: Introduction to SimPEG using an example with electrical resistivity tomog
 
 In this workshop we'll showcase how we can use the tools available in
 [SimPEG][https://simpeg.xyz], a Python library for Simulations and Parameter
-Estimations in Geophysics, to simulate ERT (a.k.a. DC resistivity) data from
+Estimations in Geophysics, to simulate Electrical Resistivity Tomography (a.k.a. ERT / DC resistivity) data from
 a synthetic model and then to run a deterministic inversion to recover the
 original model.
 You'll learn how to set up a DC survey, define a mesh, build a synthetic model,
