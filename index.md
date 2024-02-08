@@ -14,7 +14,7 @@ create a simulation that implements all the physics, and run a forward
 model to generate synthetic data. Lastly you'll learn how to set up an
 inversion to recover the resistivity of the subsurface.
 By the end of the tutorial you'll be able to use SimPEG to invert your own
-data.
+All of the simulation types that are available within SimPEG (gravity, magnetics, electromagnetics, etc.) are built with the same common framework, meaning many of the concepts illustrated in this tutorial are transferrable to other data types. 
 +++
 
 ## Prerequisites
